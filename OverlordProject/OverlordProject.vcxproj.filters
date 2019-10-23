@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainGame.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Materials\ColorMaterial.cpp" />
+    <ClCompile Include="Materials\DiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\UberMaterial.cpp" />
+    <ClCompile Include="Materials\SpikeyMaterial.cpp" />
+    <ClCompile Include="Materials\SkinnedDiffuseMaterial.cpp" />
+    <ClCompile Include="Materials\SkyBoxMaterial.cpp" />
+    <ClCompile Include="Materials\Shadow\DiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.cpp" />
+    <ClCompile Include="Game\Menu\MenuMain.cpp" />
+    <ClCompile Include="Game\Menu\MenuQuit.cpp" />
+    <ClCompile Include="Game\Menu\MenuExtra.cpp" />
+    <ClCompile Include="Game\Level\Level.cpp" />
+    <ClCompile Include="Prefabs\Character\CrashBandicoot.cpp" />
+    <ClCompile Include="Prefabs\PickUps\WumpaFruit.cpp" />
+    <ClCompile Include="Prefabs\Player\PlayerInventory.cpp" />
+    <ClCompile Include="Prefabs\Player\PlayerHUD.cpp" />
+    <ClCompile Include="Prefabs\PickUps\Life.cpp" />
+    <ClCompile Include="Prefabs\PickUps\Crystal.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateNormal.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateLife.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateJump.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateCheckPoint.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateTNT.cpp" />
+    <ClCompile Include="Prefabs\Crates\CrateNitro.cpp" />
+    <ClCompile Include="Prefabs\Character\FollowCam.cpp" />
+    <ClCompile Include="Materials\Post\PostBlur.cpp" />
+    <ClCompile Include="Materials\Post\PostGrayscale.cpp" />
+    <ClCompile Include="Materials\Post\PostBloom.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainGame.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Materials\ColorMaterial.h" />
+    <ClInclude Include="Materials\DiffuseMaterial.h" />
+    <ClInclude Include="Materials\UberMaterial.h" />
+    <ClInclude Include="Materials\SpikeyMaterial.h" />
+    <ClInclude Include="Materials\SkinnedDiffuseMaterial.h" />
+    <ClInclude Include="Materials\SkyBoxMaterial.h" />
+    <ClInclude Include="Materials\Shadow\DiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Materials\Shadow\SkinnedDiffuseMaterial_Shadow.h" />
+    <ClInclude Include="Game\Menu\MenuMain.h" />
+    <ClInclude Include="Game\Menu\MenuQuit.h" />
+    <ClInclude Include="Game\Menu\MenuExtra.h" />
+    <ClInclude Include="Game\Level\Level.h" />
+    <ClInclude Include="Prefabs\Character\CrashBandicoot.h" />
+    <ClInclude Include="Prefabs\PickUps\WumpaFruit.h" />
+    <ClInclude Include="Prefabs\Player\PlayerInventory.h" />
+    <ClInclude Include="Prefabs\Player\PlayerHUD.h" />
+    <ClInclude Include="Prefabs\PickUps\Life.h" />
+    <ClInclude Include="Prefabs\PickUps\Crystal.h" />
+    <ClInclude Include="Prefabs\Crates\CrateNormal.h" />
+    <ClInclude Include="Prefabs\Crates\CrateLife.h" />
+    <ClInclude Include="Prefabs\Crates\CrateJump.h" />
+    <ClInclude Include="Prefabs\Crates\CrateCheckPoint.h" />
+    <ClInclude Include="Prefabs\Crates\CrateTNT.h" />
+    <ClInclude Include="Prefabs\Crates\CrateNitro.h" />
+    <ClInclude Include="Prefabs\Character\FollowCam.h" />
+    <ClInclude Include="Materials\Post\PostGrayscale.h" />
+    <ClInclude Include="Materials\Post\PostBlur.h" />
+    <ClInclude Include="Materials\Post\PostBloom.h" />
+  </ItemGroup>
+</Project>
